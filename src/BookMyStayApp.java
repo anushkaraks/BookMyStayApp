@@ -7,7 +7,7 @@ public class BookMyStayApp {
     private Map<String, Set<String>> allocatedRooms = new HashMap<>();
     private Set<String> usedRoomIds = new HashSet<>();
 
-    public UseCase6RoomAllocationService() {
+    public BookMyStayApp() {
         inventory.put("Single", 2);
         inventory.put("Double", 2);
         inventory.put("Suite", 1);
